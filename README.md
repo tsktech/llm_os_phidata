@@ -1,6 +1,7 @@
 #### complete rewrite of the original tut by Mervin Praison
 
 [Here is How You Create AI Operating System from Scratch - YouTube](https://www.youtube.com/watch?v=GEQTooW02-E)
+
 [code](https://mer.vin/2024/05/phidata-llm-os/)
 
 issues faced and fixed
