@@ -21,7 +21,7 @@ from phi.storage.assistant.postgres import PgAssistantStorage
 from phi.utils.log import logger
 from phi.vectordb.pgvector import PgVector2
 
-db_url = "postgresql+psycopg2://ai:ai@localhost:5532/ai"
+db_url = "postgresql+psycopg://ai:ai@localhost:5532/ai"
 cwd = Path(__file__).parent.resolve()
 scratch_dir = cwd.joinpath("scratch")
 if not scratch_dir.exists():

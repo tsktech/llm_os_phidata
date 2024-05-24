@@ -31,7 +31,7 @@ load_dotenv()  # take environment variables
 # model_name=os.environ.get("OPENAI_MODEL_NAME")
 
 logger = logging.getLogger(__name__)
-db_url = "postgresql+psycopg2://ai:ai@localhost:5532/ai"
+db_url = "postgresql+psycopg://ai:ai@localhost:5532/ai"
 cwd = Path(__file__).parent.resolve()
 scratch_dir = cwd.joinpath("scratch")
 if not scratch_dir.exists():

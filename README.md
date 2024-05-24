@@ -7,6 +7,9 @@
 issues faced and fixed
 
 1. db_url = "postgresql+psycopg://ai:ai@localhost:5532/ai" fix db_url = "postgresql+psycopg2://ai:ai@localhost:5532/ai"
+***edit:*** 
+db_url = "postgresql+psycopg://ai:ai@localhost:5532/ai" should work.. just check the following
+check if psycopg-binary is installed (pip list) else install (pip install psycopg-binary) 
 2. most of us don't have access to gpt-4o hence llm_id="gpt-3.5-turbo" from #llm_id="gpt-4o"
 3. export api key creqtes lot of hassels on windows machine hence instead used dotenv with .env file
 
